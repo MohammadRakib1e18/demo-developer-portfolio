@@ -1,0 +1,36 @@
+.section{
+    height: 500px;
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.half-part{
+    float: left;
+    width: 40%;
+    margin-left:1%;
+    padding-left : 2%;
+}
+.half-part h1{
+    font-size: 3.5em;
+}
+.description{
+    margin-top: 80px;
+}
+p{
+    color: gray;
+    font-weight: 500;
+}
+.half-part img{
+    max-width: 95%;
+}
+.orange-color{
+    color: orange;
+ }
+ button{
+    background-image: linear-gradient(50deg, rgb(214, 129, 101), #a82b0e);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+ }
+
