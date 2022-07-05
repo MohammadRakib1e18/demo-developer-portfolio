@@ -70,8 +70,12 @@ p {
     font-weight: 500;
     font-size: 20px;
 }
+.img-container{
+    margin-left:60px;
+}
 .half-part img {
-    max-width: 95%;
+    max-width: 70%;
+    border-radius: 5%;
 }
 .orange-color {
     color: orange;
