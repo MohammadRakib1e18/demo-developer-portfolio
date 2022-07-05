@@ -4,8 +4,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Demo Developer Portfolio</title>
+        <title>Mohammad Rakib</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="images/linkin-park-band-vector-logo1.png" type="image/x-icon">
         <!-- font awesoem -->
         <script
             src="https://kit.fontawesome.com/fa4e882351.js"
@@ -13,21 +14,24 @@
         ></script>
     </head>
     <body>
-
         <!------------------------------------------------------------->
         <!-- navbar -->
         <div class="nav">
             <ul class="list">
-                <li class="list-item">Home</li>
-                <li class="list-item">About Us</li>
-                <li class="list-item">Services</li>
-                <li class="list-item">Portfolio</li>
-                <li class="list-item">Contact</li>
+                <a class="list-item database-icon" title="experience" href="#expo"
+                    ><li>
+                        <i class="fa fa-database"></i></li
+                ></a>
+                <a  class="list-item" href="#home"><li>Home</li></a>
+                <a  class="list-item" href="#contact"><li>About Us</li></a>
+                <a  class="list-item" href="#expo"><li>Services</li></a>
+                <a  class="list-item" href="#portfolio"><li>Portfolio</li></a>
+                <a  class="list-item" href="#contact"><li">Contact</li></a>
             </ul>
         </div>
 
         <!------------------------------------------------------------->
-        <div class="section">
+        <div class="section" id="home">
             <div class="half-part">
                 <h1 class="flex-column">
                     <span>Welcome To</span
@@ -41,8 +45,8 @@
                     I am learning and mastering web development. I will not stop
                     until I become the Web Development Hero.
                 </p>
-                <div class="flex-column">
-                    <button type="button" class="button">HIRE ME</button>
+                <div class="flex-column" title="visit my Linked In">
+                    <a class="button" href="https://www.linkedin.com/in/mohammad-rakib-50986a21b/" target="_blank">HIRE ME</a>
                 </div>
             </div>
             <div class="half-part">
@@ -54,7 +58,7 @@
         </div>
         <!------------------------------------------------------------->
 
-        <div class="section">
+        <div class="section" id="portfolio">
             <div class="half-part">
                 <img
                     src="images/jhankar2.png"
@@ -70,43 +74,50 @@
                     simple website. My goal is to build 3 websites and learn
                     advanced topics.
                 </p>
-                <a class="button" href="/Mohammad Rakib-Resume.pdf" download="Mohammad Rakib-Resume">DOWNLOAD RESUME <i class="fa fa-download"></i></a>
+                <a
+                    class="button"
+                    href="/Mohammad Rakib-Resume.pdf"
+                    download="Mohammad Rakib-Resume"
+                    >DOWNLOAD RESUME <i class="fa fa-download"></i
+                ></a>
             </div>
         </div>
         <!--------------------------------------------------------------->
 
-        <h3 id="experience-headline">Experiences</h3>
-        <div class="experience">
-            <div id="full-stack" class="half-part">
-                <h1>Full Stack Web Developer</h1>
-                <h4 class="duration orange-color">
-                    2021-Present | Pro Level Developer
-                </h4>
-                <p>
-                    I am the master of HTML, CSS and Javascript. I know
-                    everything needed to make a website function, efficient. I
-                    didn't stop with the web. I went beyond with most popular
-                    Javascript framework called Vue JS. I even know the
-                    deployment, server and security. I will give you 100% web
-                    solution.
-                </p>
-            </div>
-            <div id="baby-stack" class="half-part">
-                <h1>Baby Web Developer</h1>
-                <h4 class="duration orange-color">
-                    2020-2021 | Programming Hero Learner
-                </h4>
-                <p>
-                    They didn't offer me a job. But I made myself as a remove
-                    web developer. I made their website and showed it to them.
-                    They liked it. And uploaded the content. It was fun working
-                    at Programming Hero.
-                </p>
+        <div id="expo">
+            <h3 id="experience-headline">Experiences</h3>
+            <div class="experience">
+                <div id="full-stack" class="half-part">
+                    <h1>Full Stack Web Developer</h1>
+                    <h4 class="duration orange-color">
+                        2021-Present | Pro Level Developer
+                    </h4>
+                    <p>
+                        I am the master of HTML, CSS and Javascript. I know
+                        everything needed to make a website function, efficient.
+                        I didn't stop with the web. I went beyond with most
+                        popular Javascript framework called Vue JS. I even know
+                        the deployment, server and security. I will give you
+                        100% web solution.
+                    </p>
+                </div>
+                <div id="baby-stack" class="half-part">
+                    <h1>Baby Web Developer</h1>
+                    <h4 class="duration orange-color">
+                        2020-2021 | Programming Hero Learner
+                    </h4>
+                    <p>
+                        They didn't offer me a job. But I made myself as a
+                        remove web developer. I made their website and showed it
+                        to them. They liked it. And uploaded the content. It was
+                        fun working at Programming Hero.
+                    </p>
+                </div>
             </div>
         </div>
 
         <!---------------------------------------------------->
-        <div class="footer">
+        <div class="footer" id="contact">
             <div class="footer-section">
                 <div class="half-part">
                     <p>
@@ -122,7 +133,11 @@
                 <div class="half-part">
                     <h2>About the developer</h2>
                     <p>
-                        Hi, I'm  Mohamad Rakib, a competitive programmer. I've attended many online Programming Contests for the last 2 years. You will find my competitive journey in my Resume. I love to solve algorithmic problems than designing the UI.
+                        Hi, I'm Mohamad Rakib, a competitive programmer. I've
+                        attended many online Programming Contests for the last 2
+                        years. You will find my competitive journey in my
+                        Resume. I love to solve algorithmic problems than
+                        designing the UI.
                     </p>
                     <div class="social-media">
                         <i class="fab fa-facebook-square"></i>
@@ -138,6 +153,5 @@
                 © Mohammad Rakib 2022, a Programming Hero initiative.
             </p>
         </div>
-
     </body>
 </html>
