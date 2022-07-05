@@ -1,14 +1,21 @@
-body{
+body {
     margin: 0;
 }
-.section, .experience {
+.section,
+.experience {
     padding: 10px;
     margin-bottom: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.half-part{
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.half-part {
     width: 45%;
     padding: 2%;
     margin: 2%;
@@ -30,7 +37,7 @@ p {
     color: orange;
 }
 
-button {
+.button {
     background-image: linear-gradient(50deg, rgb(214, 129, 101), #a82b0e);
     color: white;
     border: 0;
@@ -39,6 +46,7 @@ button {
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
+    text-decoration: none;
 }
 
 #experience-headline {
@@ -88,12 +96,41 @@ button {
     border-left: 10px solid rgb(21, 72, 148);
 }
 
-.footer{
-   margin-top: 50px;
-   background-color: #282C2F;
-   height: 350px;
-   color: white;
-}
-.footer p{
+.footer {
+    background-color: #282c2f;
+    height: 350px;
     color: white;
+    border-right: 4px solid rgb(126, 37, 241);
+    border-left: 4px solid red;
+    border-radius: 10px;
+}
+.footer p {
+    color: white;
+}
+.footer i {
+    cursor: pointer;
+}
+
+.footer-section {
+    display: flex;
+}
+.footer-section .half-part {
+    margin-left: 100px;
+}
+
+.icon {
+    padding: 8px;
+    background-color: #857f7d3f;
+    border-radius: 50%;
+}
+.social-media i {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: rgba(167, 162, 167, 0.671);
+}
+
+#copyright {
+    text-align: center;
+    color: rgb(236, 194, 194);
+    margin-top: -4px;
 }
